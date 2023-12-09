@@ -59,11 +59,6 @@
 
         // .main-two-left__logo
 
-        &__logo {}
-
-        // .main-two-left__quest
-
-        &__quest {}
 
         // .main-two-left__title
 
@@ -94,23 +89,6 @@
 
         // .main-three_filter
 
-        &_filter {}
-
-        // .main-three__all
-
-        &__all {}
-
-        // .main-three__big
-
-        &__big {}
-
-        // .main-three__quest
-
-        &__quest {}
-
-        // .main-three__title
-
-        &__title {}
 
         // .main-three__list
 
@@ -134,7 +112,7 @@
 
         // .main-four__filter
 
-        &__filter {}
+
 
         // .main-four__big
 
@@ -144,11 +122,11 @@
 
         // .main-four__quest
 
-        &__quest {}
+
 
         // .main-four__title
 
-        &__title {}
+
 
         // .main-four__grid
 
@@ -168,7 +146,7 @@
 
         // .main-five__filter
 
-        &__filter {}
+
 
         // .main-five__wrapper
 
@@ -203,7 +181,7 @@
 
         // .main-five__right
 
-        &__right {}
+        
 
         // .main-five__right-feed
 
@@ -213,19 +191,15 @@
             width: 100%;
             // .main-five__right-feed_top
 
-            &_top {}
+
 
             // .main-five__right-feed_top
 
-            &_top {}
+
 
             // .main-five__right-feed_top
 
-            &_top {}
 
-            // .main-five__right-feed_bottom
-
-            &_bottom {}
         }
     }
 
@@ -237,36 +211,17 @@
 
         // .main-six__wrapper
 
-        &__wrapper {}
+
 
         // .main-six__left
 
-        &__left {
 
-            // .main-six__left_img
-
-            &_img {}
-
-            // .main-six__left_img-filter
-
-            &_img-filter {}
-        }
 
         // .main-six__right
 
         &__right {
 
-            // .main-six__right_quest
 
-            &_quest {}
-
-            // .main-six__right_title
-
-            &_title {}
-
-            // .main-six__right_description
-
-            &_description {}
 
             // .main-six__right_feedback
 
@@ -293,8 +248,6 @@
 
 		// .footer__svg
 
-		&__svg {
-		}
 
 		// .footer__list
 
@@ -358,7 +311,7 @@
 
         // .main-six__wrapper
 
-        &__wrapper {}
+
 
         // .main-six__left
 
@@ -376,31 +329,14 @@
 
             // .main-six__left_img-filter
 
-            &_img-filter {}
+
         }
 
         // .main-six__right
 
         &__right {
             max-width: 350px;
-            // .main-six__right_quest
 
-            &_quest {}
-
-            // .main-six__right_title
-
-            &_title {}
-
-            // .main-six__right_description
-
-            &_description {}
-
-            // .main-six__right_feedback
-
-            &_feedback {}
-
-            .form,
-            .button {}
         }
     }
 }
@@ -438,26 +374,12 @@
         }
     }
 
-    .main-two {
-
-        // .main-two_filter
-
-        &_filter {}
-    }
 
     .main-two-left {
         flex-direction: column;
         // .main-two-left__all
 
-        &__all {}
 
-        // .main-two-left__logo
-
-        &__logo {}
-
-        // .main-two-left__quest
-
-        &__quest {}
 
         // .main-two-left__title
 
@@ -475,10 +397,10 @@
 
         // .main-two-left__description
 
-        &__description {}
+
     }
 
-    .main-two-right {}
+
 
 
 
@@ -486,7 +408,6 @@
 
         // .main-four__filter
 
-        &__filter {}
 
         // .main-four__big
 
@@ -496,11 +417,8 @@
 
         // .main-four__quest
 
-        &__quest {}
 
         // .main-four__title
-
-        &__title {}
 
         // .main-four__grid
 
@@ -522,7 +440,6 @@
         position: relative;
         // .main-six__wrapper
 
-        &__wrapper {}
 
         // .main-six__left
 
@@ -531,12 +448,11 @@
             // .main-six__left_img
 
             &_img {
-                top: 10%;
+                width: 55%;
             }
 
             // .main-six__left_img-filter
 
-            &_img-filter {}
         }
 
         // .main-six__right
@@ -546,15 +462,8 @@
             max-width: 200px;
             // .main-six__right_quest
 
-            &_quest {}
-
-            // .main-six__right_title
-
-            &_title {}
-
             // .main-six__right_description
 
-            &_description {}
 
             // .main-six__right_feedback
 
@@ -580,7 +489,6 @@
 
         // .main-six__wrapper
 
-        &__wrapper {}
 
         // .main-six__left
 
@@ -590,7 +498,7 @@
 
             &_img {
                 left: -21%;
-                top: 0;
+                top: 10%;
                 width: 55%;
                 min-width: 100px;
 
@@ -601,32 +509,11 @@
 
             // .main-six__left_img-filter
 
-            &_img-filter {}
         }
 
         // .main-six__right
 
-        &__right {
 
-            // .main-six__right_quest
-
-            &_quest {}
-
-            // .main-six__right_title
-
-            &_title {}
-
-            // .main-six__right_description
-
-            &_description {}
-
-            // .main-six__right_feedback
-
-            &_feedback {}
-
-            .form,
-            .button {}
-        }
     }
     .footer__bottom{
         font-size: 12px;
