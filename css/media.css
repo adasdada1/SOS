@@ -150,7 +150,7 @@
   .main-six__left_img {
     position: absolute;
     left: -18%;
-    top: 0;
+    top: 15%;
     width: 45%;
     min-width: 222px;
   }
@@ -203,6 +203,9 @@
   }
   .main-six {
     position: relative;
+  }
+  .main-six__left_img {
+    top: 10%;
   }
   .main-six__right {
     max-width: 200px;

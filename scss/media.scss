@@ -369,7 +369,7 @@
             &_img {
                 position: absolute;
                 left: -18%;
-                top: 0;
+                top: 15%;
                 width: 45%;
                 min-width: 222px;
             }
@@ -530,7 +530,9 @@
 
             // .main-six__left_img
 
-            &_img {}
+            &_img {
+                top: 10%;
+            }
 
             // .main-six__left_img-filter
 

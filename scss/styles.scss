@@ -1,9 +1,11 @@
-*{
+* {
     // border: 1px red solid  ;
 }
-body{
+
+body {
     background-color: black;
 }
+
 :root {
     --main-orange: #FFB548;
 }
@@ -36,7 +38,7 @@ h2 {
 .header {
 
     &-wrapper {
-        padding: 0 10px;    
+        padding: 0 10px;
         padding-top: 20px;
         display: flex;
         justify-content: space-between;
@@ -74,10 +76,12 @@ h2 {
         display: flex;
         align-items: center;
         gap: 10px;
+
         // .header__right_lang
-        &_burger{
+        &_burger {
             display: none;
         }
+
         &_lang {
             margin-right: 20px;
             position: relative;
@@ -157,7 +161,8 @@ h2 {
         position: absolute;
         width: 98.9vw;
         height: 100vh;
-        background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(33,17,0,0.7232142857142857) 100%);
+        background: rgb(255, 158, 0);
+        background: linear-gradient(-180deg, rgba(255, 158, 0, 0.19091386554621848) 14%, rgba(96, 60, 0, 0.19091386554621848) 80%, rgba(0, 0, 0, 1) 100%);
     }
 
 
@@ -202,7 +207,7 @@ h2 {
         left: 0;
         bottom: 6%;
         cursor: pointer;
-        
+
     }
 }
 
@@ -224,7 +229,8 @@ h2 {
         min-width: 98.9vw;
         position: absolute;
         inset: 0;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8408613445378151) 0%, rgba(0, 0, 0, 0.6531862745098039) 50%, rgba(0, 0, 0, 0.8856792717086834) 100%);
+        background: rgb(0, 0, 0);
+        background: linear-gradient(-180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.6895133053221288) 15%, rgba(0, 0, 0, 0.19091386554621848) 80%, rgba(0, 0, 0, 1) 100%);
     }
 }
 
@@ -299,7 +305,8 @@ h2 {
         position: absolute;
         width: 98.9vw;
         height: 100vh;
-        background: radial-gradient(circle, rgba(0, 0, 0, 0.07335434173669464) 17%, rgba(0, 0, 0, 0.9613095238095238) 80%);
+        background: rgb(0, 0, 0);
+        background: linear-gradient(-180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.6895133053221288) 15%, rgba(0, 0, 0, 0.19091386554621848) 80%, rgba(0, 0, 0, 1) 100%);
     }
 
     &__all {
@@ -335,7 +342,7 @@ h2 {
         text-transform: uppercase;
         font-weight: 600;
         position: relative;
-        
+
         &::before {
             position: absolute;
             content: '';
@@ -408,12 +415,12 @@ h2 {
     // .main-four__filter
 
     &__filter {
-        z-index: 0;
-        min-height: 100vh;
-        min-width: 98.9vw;
         position: absolute;
-        inset: 0;
-        background: radial-gradient(circle, rgba(0, 0, 0, 0.04534313725490191) 17%, rgba(0, 0, 0, 0.726015406162465) 80%);
+        width: 98.9vw;
+        height: 100vh;
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(-180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.6895133053221288) 15%, rgba(0, 0, 0, 0.19091386554621848) 80%, rgba(0, 0, 0, 1) 100%);
     }
 
     // .main-four__big
@@ -466,6 +473,7 @@ h2 {
 
 
 .main-five {
+    position: relative;
     background-repeat: no-repeat;
     background-position: center;
     background-size: inherit;
@@ -479,7 +487,14 @@ h2 {
         align-items: center;
     }
 
-    &__filter {}
+    &__filter {
+        z-index: 0;
+        min-height: 100vh;
+        min-width: 98.9vw;
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(circle, rgba(0, 0, 0, 0.13769257703081228) 0%, rgba(0, 0, 0, 1) 86%);
+    }
 
     // .main-five__left
 
@@ -586,7 +601,6 @@ h2 {
 .main-six {
     min-height: 100vh;
     background-color: black;
-    padding-top: 50px;
     // .main-six__wrapper
 
     &__wrapper {
@@ -614,7 +628,8 @@ h2 {
             width: 100%;
             height: 100%;
             position: absolute;
-            background: radial-gradient(circle, rgba(0, 0, 0, 0.13497899159663862) 18%, rgba(0, 0, 0, 1) 78%);
+            background: rgb(0, 0, 0);
+            background: radial-gradient(circle, rgba(0, 0, 0, 0.13769257703081228) 0%, rgba(0, 0, 0, 1) 86%);
         }
     }
 
@@ -695,6 +710,7 @@ h2 {
         align-items: center;
         position: relative;
         margin-bottom: 35px;
+
         &::after {
             opacity: 0.5;
             content: "";
@@ -723,10 +739,11 @@ h2 {
         // .footer__list_item
 
         &_item {
-            a{
+            a {
                 text-decoration: none;
                 color: white;
             }
+
             &:not(:last-child) {
                 margin-right: 2.5vw;
             }
@@ -752,10 +769,11 @@ h2 {
                 svg {
                     fill: white;
                     width: 23px;
-                    transition: all 0.1s  ease-in-out;
-                    &:hover{
+                    transition: all 0.1s ease-in-out;
+
+                    &:hover {
                         fill: var(--main-orange);
-                        transition: all 0.2s  ease-in-out;
+                        transition: all 0.2s ease-in-out;
                     }
                 }
             }
