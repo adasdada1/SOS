@@ -64,7 +64,8 @@ h2 {
 
         &_item {
             //100vw= 835px. 1vw=8,35px.(835/100) 28px = 3,35vw(28/8,35)
-            font-size: clamp(11px, 1.44vw, 12px);
+            font-weight: 600;
+            font-size: clamp(12px, 1.44vw, 14px);
             margin-right: 32px;
             display: inline-block;
         }
@@ -476,7 +477,7 @@ h2 {
     position: relative;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: inherit;
+    background-size: cover;
     background-image: url('../img/bg\ image\ 52.png');
     min-height: 100vh;
     padding-top: 50px;
