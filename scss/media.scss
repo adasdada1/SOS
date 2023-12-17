@@ -48,7 +48,11 @@
         }
     }
 
-
+    .main-two-right{
+        img{
+            height: 80vh;
+        }
+    }
     .main-two-left {
         flex-direction: column;
         // .main-two-left__all
@@ -485,6 +489,23 @@
 
 
 @media(max-width:400px) {
+    .swiper{
+        width: 100vw;
+        min-width: inherit;
+        margin-bottom: 20px;
+    }
+    .main-two-right{
+        img{
+            width: 80%;
+        }
+       
+    }
+    .swiper-button-next,.swiper-button-prev {
+        width: 15px;
+    }
+    .swiper-pagination{
+        gap: 20px;
+    }
     .main-six {
 
         // .main-six__wrapper

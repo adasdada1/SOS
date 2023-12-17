@@ -21,6 +21,9 @@
   .header-wrapper__svg {
     width: 40px;
   }
+  .main-two-right img {
+    height: 80vh;
+  }
   .main-two-left {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -220,6 +223,20 @@
   }
 }
 @media (max-width: 400px) {
+  .swiper {
+    width: 100vw;
+    min-width: inherit;
+    margin-bottom: 20px;
+  }
+  .main-two-right img {
+    width: 80%;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    width: 15px;
+  }
+  .swiper-pagination {
+    gap: 20px;
+  }
   .main-six__left_img {
     left: -21%;
     top: 10%;

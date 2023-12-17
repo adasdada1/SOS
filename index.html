@@ -8,8 +8,10 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -35,15 +37,24 @@
                 </svg>
 
                 <ul class="header__list">
-                    <li class="header__list_item">main</li>
-                    <li class="header__list_item">about</li>
-                    <li class="header__list_item">game features</li>
-                    <li class="header__list_item">System requirements</li>
-                    <li class="header__list_item">quotes</li>
+                    <li class="header__list_item"><a href="#">main</a></li>
+                    <li class="header__list_item"><a href="#">about</a></li>
+                    <li class="header__list_item"><a href="#">game features</a></li>
+                    <li class="header__list_item"><a href="#">System requirements</a></li>
+                    <li class="header__list_item"><a href="#">quotes</a></li>
                 </ul>
 
                 <div class="header__right">
-                    <div class="header__right_lang">eng</div>
+                    <div class="header__right_lang">
+                        <span>eng</span>
+                        <div class="header__right_lang-none">
+                            <ul>
+                                <li><a href="">RUS</a></li>
+                                <li><a href="">FRA</a></li>
+                                <li><a href="">DEU</a></li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="header__right_svgs"><svg width="31" height="31" viewBox="0 0 31 31" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -61,13 +72,14 @@
                     </div>
                     <div class="header__right_burger">
                         <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 25 18" fill="none">
-                                <rect x="9.49854" y="15.0166" width="14.585" height="2.5" rx="1.25" fill="white"/>
-                                <rect x="0.596191" y="7.51657" width="23.4873" height="2.5" rx="1.25" fill="white"/>
-                                <rect x="0.596191" y="0.016571" width="23.4873" height="2.5" rx="1.25" fill="white"/>
-                              </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 25 18"
+                                fill="none">
+                                <rect x="9.49854" y="15.0166" width="14.585" height="2.5" rx="1.25" fill="white" />
+                                <rect x="0.596191" y="7.51657" width="23.4873" height="2.5" rx="1.25" fill="white" />
+                                <rect x="0.596191" y="0.016571" width="23.4873" height="2.5" rx="1.25" fill="white" />
+                            </svg>
                         </a>
-                        
+
                     </div>
 
                 </div>
@@ -106,34 +118,77 @@
 
         <section class="main-two">
             <div class="main-two_filter"></div>
-                <div class="container">
-                    <div class="main-two-left">
-                        <div class="main-two-left__all">
-                            <div class="main-two-left__logo">
-                                <h2 class="main-two-left__quest">What is SOS?</h2>
-                                <h1 class="main-two-left__title">social battle royale game
-                                    <div class="main-two-left__line"></div>
-                                </h1>
-                                
+            <div class="container">
+                <div class="main-two-left">
+                    <div class="main-two-left__all">
+                        <div class="main-two-left__logo">
+                            <h2 class="main-two-left__quest">What is SOS?</h2>
+                            <h1 class="main-two-left__title">social battle royale game
+
+                            </h1>
+
+                        </div>
+
+
+                        <span class="main-two-left__description">
+                            Each round, <strong>you</strong> and <strong>15</strong> other contestants compete to
+                            escape a deadly island filled with monsters. The trick is: <strong>three</strong> people can
+                            survive. Will you run
+                            solo or form friendships with others to escape? <br><br>
+                            Making the right decisions could be the difference between <span>life and death.</span>
+                        </span>
+                    </div>
+                    <div class="swiper">
+                        
+                        <div class="swiper-wrapper">
+                            
+                            <div class="swiper-slide">
+                                <div class="main-two-right">
+                                    <img src="img/bgc.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-two-right">
+                                    <img src="img/bg image 2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-two-right">
+                                    <img src="img/image 5.2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-two-right">
+                                    <img src="img/image 5.2.png" alt="">
+                                </div>
                             </div>
                             
-                            
-                            <span class="main-two-left__description">
-                                Each round, <strong>you</strong> and <strong>15</strong> other contestants compete to
-                                escape a deadly island filled with monsters. The trick is: <strong>three</strong> people can survive. Will you run
-                                solo or form friendships with others to escape? <br><br>
-                                Making the right decisions could be the difference between <span>life and death.</span>
-                            </span>
                         </div>
-                        
-                        <div class="main-two-right">
-                            <img src="img/image 5.2.png" alt="">
-                        </div>
+                       
+                        <div class="swiper-pagination"></div>
+
+                     
+                        <div class="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="38" viewBox="0 0 18 38" fill="none">
+                            <g transform="rotate(180, 9, 19)">
+                            <path d="M1.82153 1.95628L1.82153 36.0297L15.5642 19.1837L1.82153 1.95628Z" stroke="white" stroke-width="3.36454" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            </svg>
+                            </div>
+                        <div class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="38" viewBox="0 0 18 38" fill="none">
+                            <path d="M1.82153 1.95628L1.82153 36.0297L15.5642 19.1837L1.82153 1.95628Z" stroke="white" stroke-width="3.36454" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg></div>
+
+
                     </div>
-                    
+
+
+
+
                 </div>
-                
-            
+
+            </div>
+
+
         </section>
 
         <section class="main-three">
@@ -154,9 +209,9 @@
                         <li class="main-three__list_item">IMPRESS THE AUDIENCE</li>
                     </ul>
                 </div>
-                
+
             </div>
-            
+
 
 
         </section>
@@ -171,16 +226,22 @@
 
                 <div class="main-four__grid">
                     <h3 class="main-four__grid_item">OS:<div>Windows 7 64-bit only
-                        (No OSX support at this time)
-                        </div></h3>
-                    <h3 class="main-four__grid_item">pROCESSOR:<div>Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ
-                    </div></h3>
+                            (No OSX support at this time)
+                        </div>
+                    </h3>
+                    <h3 class="main-four__grid_item">pROCESSOR:<div>Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8
+                            GHZ
+                        </div>
+                    </h3>
                     <h3 class="main-four__grid_item">mEMORY:<div>8 GB RAM
-                    </div></h3>
-                    <h3 class="main-four__grid_item">storage:<div>8 GB available space</div></h3>
-                    <h3 class="main-four__grid_item">GRAPHICS:<div>NVIDIA GeForce GTX 660 2GB or 
-                        AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
-                        </div></h3>
+                        </div>
+                    </h3>
+                    <h3 class="main-four__grid_item">storage:<div>8 GB available space</div>
+                    </h3>
+                    <h3 class="main-four__grid_item">GRAPHICS:<div>NVIDIA GeForce GTX 660 2GB or
+                            AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
+                        </div>
+                    </h3>
                 </div>
             </div>
         </section>
@@ -342,8 +403,9 @@
         </footer>
 
     </main>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/swiper.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
